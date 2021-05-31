@@ -10,7 +10,6 @@ public class ClassInstanceSample {
 		//Object instance creation using 'new' and passing parameters to constructors
 		Person him = new Person("John Doe");
 		Person her = new Person("Jane Doe");
-		Person unknown = new Person();
 		
 		
 		//Access an object's member method to invoke a behavior
@@ -24,7 +23,9 @@ public class ClassInstanceSample {
 		
 		//This will cause the object pointed by 'her' to be garbage collected
 		//since there are no more remaining references to that object
-		her = null;
+		// her = null;
+		her.setName("Mary");
+		System.out.println(her.introduce());
 		
 		
 	}

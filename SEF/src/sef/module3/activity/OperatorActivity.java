@@ -12,8 +12,8 @@ public class OperatorActivity {
 	public static void main(String[] args) {
 		
 		// Declare numbers to be operated
-		int i = 8;
-		int j = 5;
+		int i = 9;
+		int j = 3;
 		int result;
 		
 		
