@@ -14,5 +14,7 @@ public class ReferenceCastingSample {
 		tempPerson.announce();
 		Student_P tempStudent = (Student_P)tempPerson; // convert person to student
 		tempStudent.announce();
+		System.out.println("temp student name:"+ tempStudent.getName());
+		System.out.println("temp student school:"+ tempStudent.getSchool());
 	}
 }
