@@ -3,7 +3,7 @@ package sef.FinalTask;
 public class Students extends Person {
     public String schoolName;
 
-    public Students(String name, String lastname, int age, String schoolName){
+    public Students(String name, String lastname, int age, String schoolName) throws Exception {
         super(name, lastname, age);
         this.schoolName = schoolName;
 

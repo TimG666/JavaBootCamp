@@ -1,18 +1,24 @@
 package sef.FinalTask;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
 
 public class Employee extends Person {
     public String title;
     public String company;
     public static int salary;
 
-    public Employee(String name, String lastname, int age, String title, String company, int salary) {
+    public Employee(String name, String lastname, int age, String title, String company, int salary) throws Exception {
         super(name, lastname, age);
         this.title = title;
         this.company = company;
         this.salary = salary;
     }
+
+
+
 
 
     public String getName() {
@@ -27,7 +33,15 @@ public class Employee extends Person {
         System.out.println("My name is " + name + " " + lastname + " and I'm " + age + " years old. " + "I'm work as " + title + " in " + company);
 
     }
-}
+
+
+
+
+
+
+    }
+
+
 
 //    public static void arraySalary() {                       // salary array
 //        int[] array = {salary};
